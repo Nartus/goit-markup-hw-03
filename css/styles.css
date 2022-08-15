@@ -9,6 +9,12 @@
   --section-team: #F5F4FA;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -22,6 +28,11 @@ a {
 /*  */
 ul {
   list-style: none;
+}
+
+h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
 }
 
 /* часть логотипа веб-студии */
@@ -43,8 +54,25 @@ color: var(--logo-two)
   color: var(--text-white);
 }
 
+.logo-webstudio {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 93px;
+}
+
 
 /* шапка страницы */
+
+.container {
+  width: 1200px;
+}
+
+.flex {
+  display: flex;
+  outline: 1px solid red;
+
+}
 
 /* навигация сайта */
 .studio, .portfolio, .contacts, .mail, .phone {
@@ -56,11 +84,29 @@ text-decoration: none;
 color: var(--text-darkgray) 
 }
 
+.studio,
+.portfolio,
+.mail {
+  margin-right: 50px;
+}
+
+.studio,
+.portfolio,
+.mail,
+.contacts,
+.phone {
+display: flex;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+
 .portfolio {
   color: var(--text);
 }
 
 .contacts {
+  padding-right: 344px;
   color: var(--text);
 }
 
@@ -72,6 +118,7 @@ color: var(--text-darkgray)
 }
 
 .phone {
+  padding-right: 0;
   color: var(--text-gray);
 }
 
@@ -98,6 +145,10 @@ background-color: var(--logo-one);
 .button:hover {
   color: var(--text-white);
   background-color: #188CE8;
+}
+
+.btn {
+  text-align: center;
 }
 
 /* переречень достоинств */
