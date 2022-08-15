@@ -1,0 +1,257 @@
+:root {
+  --dark-fon: #2F303A;
+  --logo-one: #2196F3;
+  --logo-two: #000000;
+  --text-black: #000000;
+  --text-white: #ffffff;
+  --text-gray: #757575;
+  --text-darkgray: #212121;
+  --section-team: #F5F4FA;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: var(--text-white)
+  color: var(--text-darkgray)
+}
+
+a {
+  text-decoration: none;
+}
+/*  */
+ul {
+  list-style: none;
+}
+
+/* часть логотипа веб-студии */
+
+.logo-one, .logo-two, .logo-footer {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+text-decoration: none;
+color: var(--logo-one);
+}
+
+/* часть логотипа веб-студии */
+.logo-two {
+color: var(--logo-two)
+}
+.logo-footer {
+  color: var(--text-white);
+}
+
+
+/* шапка страницы */
+
+/* навигация сайта */
+.studio, .portfolio, .contacts, .mail, .phone {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: var(--text-darkgray) 
+}
+
+.portfolio {
+  color: var(--text);
+}
+
+.contacts {
+  color: var(--text);
+}
+
+.mail {
+  color: var(--text-gray);
+}
+.studio:hover,.studio:focus,.portfolio:hover,.portfolio:focus,.contacts:hover,.contacts:focus,.mail:hover,.mail:focus, .phone:hover,.phone:focus {
+  color: var(--logo-one)
+}
+
+.phone {
+  color: var(--text-gray);
+}
+
+/* главный заголовок проекта */
+.key-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--text-white)
+}
+
+/*кнопка*/
+.button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+color: var(--text-white);
+cursor: pointer;
+background-color: var(--logo-one);
+}
+.button:hover {
+  color: var(--text-white);
+  background-color: #188CE8;
+}
+
+/* переречень достоинств */
+.headlines {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-darkgray);
+}
+
+/*перечень описания достоинств */
+.description {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-gray);
+}
+
+/*заголовки "чем занимаемся" и "наша команда" */
+.headlines-two {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-darkgray);
+}
+
+/* фон секции "Наша команда" */
+.section-team {
+background-color: var(--section-team);
+}
+
+/*блоки членов команды */
+.block {
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+background-color: var(--text-white); 
+}
+
+/* имена команды */
+.name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-darkgray)
+}
+
+/* кем работают */
+.name-work {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-gray);
+}
+
+
+/* футер и верхний фон */
+.dark-fon {
+background-color:  var(--dark-fon);
+}
+
+/* текст футера*/
+
+/* адресс */
+.address {
+color: var(--text-white) 
+}
+
+.mail-two,
+.phone-two {
+  color: var(--text-white);
+  opacity: 0.6;
+}
+
+.address:hover,.address:focus,
+.mail-two:hover,.mail-two:focus,
+.phone-two:hover,.phone-two:focus {
+  color: var(--logo-one);
+}
+
+.address, .mail-two, .phone-two {
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+
+/* Элементы страницы портфолио! */
+
+/* заголовки блоков */
+
+.headlines-portfolio {
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+text-decoration: none;
+color: var(--text-darkgray)
+}
+
+/* кнопки порфтолио */
+
+.buttons-portfolio {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+cursor: pointer;
+color: var(--text-darkgray)
+}
+
+.buttons-portfolio:hover,
+.buttons-portfolio:focus {
+color: var(--text-white);
+background-color: var(--logo-one);
+}
+
+
+/* текст блоков */
+
+.text-blocks {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--text-gray)
+}
+
+.current {
+  color: var(--logo-one)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
