@@ -182,7 +182,6 @@ color: var(--text-darkgray);
   justify-content: center;
   margin-top: 92px;
   margin-bottom: 94px;
-  outline: 1px solid red;
 }
 
 
@@ -193,6 +192,9 @@ letter-spacing: 0.03em;
 padding-right: 30px;
 color: var(--text-gray);
 outline: 1px solid red;
+}
+.description:last-child {
+  padding-right: 0;
 }
 
 
