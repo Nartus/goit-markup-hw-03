@@ -68,7 +68,7 @@ color: var(--logo-two)
 .flex {
   display: flex;
   justify-content:space-between;
-  outline: 1px solid red;
+  border-bottom: 1px solid #ECECEC;
 
 }
 
