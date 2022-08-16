@@ -17,7 +17,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   background-color: var(--text-white)
   color: var(--text-darkgray)
 }
@@ -48,17 +47,11 @@ color: var(--logo-one);
 
 /* часть логотипа веб-студии */
 .logo-two {
-color: var(--logo-two)
-}
-.logo-footer {
-  color: var(--text-white);
-}
-
-.logo-webstudio {
   display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
   padding-right: 93px;
+color: var(--logo-two)
 }
 
 
@@ -70,6 +63,7 @@ color: var(--logo-two)
 
 .flex {
   display: flex;
+  justify-content:space-between;
   outline: 1px solid red;
 
 }
@@ -87,7 +81,7 @@ color: var(--text-darkgray)
 .studio,
 .portfolio,
 .mail {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .studio,
@@ -130,28 +124,45 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+padding-top: 200px;
 color: var(--text-white)
 }
 
 /*кнопка*/
 .button {
+display: block;
+margin-right: auto;
+margin-left: auto;
+width: 216px;
+height: 50px;
+left: 766px;
+top: 432px;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 color: var(--text-white);
 cursor: pointer;
 background-color: var(--logo-one);
 }
 .button:hover {
-  color: var(--text-white);
-  background-color: #188CE8;
+color: var(--text-white);
+background-color: #188CE8;
 }
 
 .btn {
-  text-align: center;
+padding-top: 30px;
+padding-bottom: 200px;
 }
 
+
 /* переречень достоинств */
+
+.headlines-invisible {
+  visibility: hidden;
+}
+
 .headlines {
 font-weight: 700;
 font-size: 14px;
@@ -162,11 +173,38 @@ color: var(--text-darkgray);
 }
 
 /*перечень описания достоинств */
+
+.flex-description {
+  display: flex;
+  justify-content: center;
+  margin-top: 92px;
+  margin-bottom: 94px;
+  outline: 1px solid red;
+}
+
+
 .description {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+padding-right: 30px;
 color: var(--text-gray);
+outline: 1px solid red;
+}
+
+
+.flex-work {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+.img:last-child {
+  padding-right: 0;
 }
 
 /*заголовки "чем занимаемся" и "наша команда" */
@@ -176,10 +214,20 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
+padding-top: 94px;
+padding-bottom: 50px;
 color: var(--text-darkgray);
 }
 
 /* фон секции "Наша команда" */
+
+.flex-team {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+
 .section-team {
 background-color: var(--section-team);
 }
@@ -188,8 +236,13 @@ background-color: var(--section-team);
 .block {
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-background-color: var(--text-white); 
+background-color: var(--text-white);
+margin-right: 30px; 
 }
+.block:last-child {
+  margin-right: 0;
+}
+
 
 /* имена команды */
 .name {
@@ -212,10 +265,25 @@ color: var(--text-gray);
 
 
 /* футер и верхний фон */
+
+.logo-footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: var(--text-white);
+}
+
 .dark-fon {
 background-color:  var(--dark-fon);
 }
 
+.flex-footer {
+  display: flex;
+  justify-self: start;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
 /* текст футера*/
 
 /* адресс */
@@ -243,7 +311,22 @@ letter-spacing: 0.03em;
 }
 
 
-/* Элементы страницы портфолио! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ЭЛЕМЕНТЫ СТРАНИЦЫ ПОРТФОЛИО! */
 
 /* заголовки блоков */
 
@@ -259,6 +342,7 @@ color: var(--text-darkgray)
 /* кнопки порфтолио */
 
 .buttons-portfolio {
+  font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
