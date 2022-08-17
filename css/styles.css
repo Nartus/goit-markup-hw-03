@@ -69,6 +69,15 @@ color: var(--logo-two)
   display: flex;
 }
 
+.br-header {
+border-bottom: 1px solid #ECECEC;
+position: absolute;
+width: 1602px;
+height: 103px;
+left: 0px;
+top: -23px;
+}
+
 .flex {
   display: flex;
 }
@@ -191,10 +200,9 @@ color: var(--text-darkgray);
 /*перечень описания достоинств */
 
 .flex-description {
-  display: flex;
-  justify-content: center;
-  margin-top: 92px;
-  margin-bottom: 94px;
+display: flex;
+  padding-top: 93px;
+  padding-bottom: 94px;
 }
 
 
@@ -202,13 +210,16 @@ color: var(--text-darkgray);
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-padding-right: 30px;
 color: var(--text-gray);
-outline: 1px solid red;
 }
-.description:last-child {
-  padding-right: 0;
+
+.li-description {
+  margin-right: 30px;
 }
+.li-description:last-child {
+  margin-right: 0;
+}
+
 
 
 .flex-work {
@@ -237,7 +248,7 @@ padding-bottom: 50px;
 color: var(--text-darkgray);
 }
 
-/* фон секции "Наша команда" */
+/* НАША КОМАНДА*/
 
 .flex-team {
   display: flex;
@@ -282,7 +293,7 @@ color: var(--text-gray);
 }
 
 
-/* футер и верхний фон */
+/* ФУТЕР */
 
 .logo-footer {
   padding-top: 60px;

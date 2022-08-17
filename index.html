@@ -19,9 +19,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="flex">
-      <div class="container header-flex">
-        <nav class="flex nav">
+    <!-- ШАПКА -->
+   <header class="flex">
+     <div class="container header-flex">
+      <nav class="flex nav">
           <a class="logo-two" href=""
             ><span class="logo-one">Web</span>Studio</a
           >
@@ -48,39 +49,41 @@
       </div>
     </header>
     <main>
-      <div class="container">
         <section class="dark-fon">
-          <h1 class="key-title">Ефективні рішення для вашого бізнесу</h1>
+          <div>
+            <h1 class="key-title">Ефективні рішення для вашого бізнесу</h1>
           <div class="btn">
             <button class="button" type="button">Замовити послугу</button>
           </div>
+          </div>
         </section>
       </div>
-      <div class="container">
+      <!-- ДОСТОИНСТВА -->
         <section>
-          <ul class="flex-description">
+          <div class="container">
             <h2 class="headlines-invisible">Перелік наших переваг</h2>
-            <li>
+            <ul class="flex-description">
+            <li class="li-description">
               <h2 class="headlines">Увага до деталей</h2>
               <p class="description">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li>
+            <li class="li-description">
               <h2 class="headlines">Пунктуальність</h2>
               <p class="description">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="li-description">
               <h2 class="headlines">Планування</h2>
               <p class="description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="li-description">
               <h2 class="headlines">Сучасні технології</h2>
               <p class="description">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -88,10 +91,13 @@
               </p>
             </li>
           </ul>
+          </div>
+          
         </section>
       </div>
-      <div class="container">
-        <section>
+      <!-- ЧЕМ ЗАНИМАЕМСЯ -->
+      <section>
+        <div class="container"></div>
           <h2 class="headlines-two flex-work">Чим ми займаємося</h2>
           <ul class="flex-work">
             <li class="img">
@@ -116,10 +122,11 @@
               />
             </li>
           </ul>
-        </section>
-      </div>
-      <div class="container">
-        <section class="section-team">
+        </div>
+      </section>
+      <!-- НАША КОМАНДА -->
+      <section class="section-team">
+          <div class="container"></div>
           <h2 class="headlines-two">Наша команда</h2>
           <ul class="flex-team">
             <li class="block">
@@ -143,11 +150,12 @@
               <p class="name-work" lang="en">UI Designer</p>
             </li>
           </ul>
+           </div>
         </section>
-      </div>
-    </main>
-    <div class="container">
+     </main>
+    <!-- ФУТЕР -->
       <footer class="dark-fon">
+        <div class="container">
         <a class="logo-footer flex-footer" href=""
           ><span class="logo-one">Web</span>Studio</a
         >
@@ -168,6 +176,7 @@
             </li>
           </ul>
         </address>
+        </div>
       </footer>
     </div>
   </body>
