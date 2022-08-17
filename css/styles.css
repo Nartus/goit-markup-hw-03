@@ -50,7 +50,7 @@ color: var(--logo-one);
   display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
-  padding-right: 93px;
+  margin-right: 93px;
 color: var(--logo-two)
 }
 
@@ -67,9 +67,9 @@ color: var(--logo-two)
 
 .flex {
   display: flex;
-  justify-content:space-between;
-  border-bottom: 1px solid #ECECEC;
+  justify-content: space-between;
 }
+
 
 /* навигация сайта */
 .studio, .portfolio, .contacts, .mail, .phone {
@@ -84,7 +84,7 @@ color: var(--text-darkgray)
 .studio,
 .portfolio,
 .mail {
-  padding-right: 50px;
+  margin-right: 50px;;
 }
 
 .studio,
@@ -103,7 +103,7 @@ padding-bottom: 32px;
 }
 
 .contacts {
-  padding-right: 344px;
+  margin-right: 344px;
   color: var(--text);
 }
 
@@ -115,7 +115,6 @@ padding-bottom: 32px;
 }
 
 .phone {
-  padding-right: 0;
   color: var(--text-gray);
 }
 
