@@ -11,30 +11,37 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="flex">
-      <div class="container">
-        <nav class="flex">
+      <div class="container header-flex">
+        <nav class="flex nav">
           <a class="logo-two" href=""
             ><span class="logo-one">Web</span>Studio</a
           >
           <ul class="flex">
-            <li><a class="studio current" href="">Студія</a></li>
-            <li><a class="portfolio" href="./portfolio.html">Портфоліо</a></li>
+            <li class="studio-flex">
+              <a class="studio current" href="">Студія</a>
+            </li>
+            <li class="portfolio-flex">
+              <a class="portfolio" href="./portfolio.html">Портфоліо</a>
+            </li>
             <li><a class="contacts" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="flex">
-          <li>
+          <li class="mail-flex">
             <a class="mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="phone-flex">
             <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>

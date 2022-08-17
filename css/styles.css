@@ -65,10 +65,17 @@ color: var(--logo-two)
   margin-left: auto;
 }
 
+.header-flex {
+  display: flex;
+}
+
 .flex {
   display: flex;
-  justify-content: space-between;
 }
+.nav {
+  margin-right: 344px;
+}
+
 
 
 /* навигация сайта */
@@ -81,10 +88,13 @@ text-decoration: none;
 color: var(--text-darkgray) 
 }
 
-.studio,
-.portfolio,
-.mail {
-  margin-right: 50px;;
+.studio-flex,
+.portfolio-flex {
+  margin-right: 50px;
+}
+
+.mail-flex {
+  margin-right: 50px;
 }
 
 .studio,
@@ -103,20 +113,24 @@ padding-bottom: 32px;
 }
 
 .contacts {
-  margin-right: 344px;
   color: var(--text);
+}
+.contacts-flex {
+  margin-right: 344px;
 }
 
 .mail {
   color: var(--text-gray);
 }
+
 .studio:hover,.studio:focus,.portfolio:hover,.portfolio:focus,.contacts:hover,.contacts:focus,.mail:hover,.mail:focus, .phone:hover,.phone:focus {
   color: var(--logo-one)
 }
 
 .phone {
   color: var(--text-gray);
-}
+ }
+
 
 /* главный заголовок проекта */
 .key-title {
