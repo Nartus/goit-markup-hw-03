@@ -34,6 +34,11 @@ h1, h2, p, ul {
   padding: 0;
 }
 
+section {
+padding-top: 94px;
+padding-bottom: 94px;  
+}
+
 /* часть логотипа веб-студии */
 
 .logo-one, .logo-two, .logo-footer {
@@ -70,12 +75,11 @@ color: var(--logo-two)
 }
 
 .br-header {
-border-bottom: 1px solid #ECECEC;
-position: absolute;
 width: 1602px;
 height: 103px;
 left: 0px;
 top: -23px;
+border-bottom: 1px solid #ECECEC;
 }
 
 .flex {
@@ -201,8 +205,6 @@ color: var(--text-darkgray);
 
 .flex-description {
 display: flex;
-  padding-top: 93px;
-  padding-bottom: 94px;
 }
 
 
@@ -228,9 +230,11 @@ color: var(--text-gray);
 }
 
 .img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   padding-right: 30px;
   padding-top: 50px;
-  padding-bottom: 94px;
 }
 .img:last-child {
   padding-right: 0;
@@ -243,7 +247,6 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-padding-top: 94px;
 padding-bottom: 50px;
 color: var(--text-darkgray);
 }
@@ -253,7 +256,6 @@ color: var(--text-darkgray);
 .flex-team {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 
@@ -386,6 +388,13 @@ color: var(--text-white);
 background-color: var(--logo-one);
 }
 
+.portfolio-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+
 
 /* текст блоков */
 
@@ -400,16 +409,71 @@ color: var(--text-gray)
   color: var(--logo-one)
 }
 
+.cards {
+  display: flex;
+}
+
+.cards-one {
+  display: flex;
+   flex-direction: row;
+}
+
+.cl {
+  margin-right: 30px;
+  margin-bottom: 30px;
+   border: 1px solid #EEEEEE;
+  width: 370px;
+height: 404px;
+  
+}
+.cl:last-child {
+  margin-right: 0;
+}
+
+.cards-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.cl-two {
+margin-right: 30px;
+margin-bottom: 30px;
+ border: 1px solid #EEEEEE;
+  width: 370px;
+height: 404px;
+}
+.cl-two:last-child {
+  margin-right: 0;
+}
+
+.cards-two {
+  display: flex;
+  flex-direction: row;
+}
 
 
+.cards-three {
+  display: flex;
+  flex-direction: row;
+}
 
+.cl-three {
+margin-right: 30px;
+margin-bottom: 30px;
+ border: 1px solid #EEEEEE;
+  width: 370px;
+height: 404px;
+}
+.cl-three:last-child {
+  margin-right: 0;
+}
 
-
-
-
-
-
-
+.bl {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 
 
