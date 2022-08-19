@@ -76,8 +76,6 @@ color: var(--logo-two)
 
 .header-flex {
   display: flex;
- margin-top: 32px;
- margin-bottom: 32px;
 }
 
 .br-header {
