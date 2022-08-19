@@ -16,6 +16,7 @@
 }
 
 body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: var(--text-white)
   color: var(--text-darkgray)
@@ -79,9 +80,6 @@ color: var(--logo-two)
 }
 
 .br-header {
-width: 1602px;
-height: 103px;
-left: 0px;
 top: -23px;
 border-bottom: 1px solid #ECECEC;
 }
@@ -110,6 +108,7 @@ color: var(--text-darkgray)
 .portfolio-flex {
   margin-right: 50px;
 }
+
 
 .mail-flex {
   margin-right: 50px;
@@ -395,13 +394,12 @@ color: var(--text-white);
 background-color: var(--logo-one);
 }
 
-.portfolio-flex {
-  display: flex;
+.portfolio-btn {
+ display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
-
 
 
 /* текст блоков */
@@ -426,8 +424,10 @@ color: var(--text-gray)
 }
 
 .border-cards {
-  width: 370;
-  border: 1px solid #EEEEEE;
+  width: 370px;
+  border-right:  1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 .borders {
