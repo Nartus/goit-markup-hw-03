@@ -20,9 +20,9 @@
   </head>
   <body>
     <!-- ШАПКА -->
-   <header class="br-header">
-     <div class="container header-flex">
-      <nav class="nav">
+   <header class="flex br-header">
+      <div class="container header-flex">
+        <nav class="flex nav">
           <a class="logo-two" href=""
             ><span class="logo-one">Web</span>Studio</a
           >
@@ -30,35 +30,35 @@
             <li class="studio-flex">
               <a class="studio current" href="">Студія</a>
             </li>
-            <li class="portfolio-flex">
+            <li class="studio-flex">
               <a class="portfolio" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li><a class="contacts" href="">Контакти</a></li>
+            <li class="studio-flex">
+              <a class="contacts" href="">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="flex">
-          <li class="mail-flex">
+          <li class="contact">
             <a class="mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="phone-flex">
+          <li class="contact">
             <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
     <main>
-        <section class="dark-fon">
-          <div>
+        <section class="section dark-fon">
+          <div class="container">
             <h1 class="key-title">Ефективні рішення для вашого бізнесу</h1>
-          <div class="btn">
             <button class="button" type="button">Замовити послугу</button>
-          </div>
           </div>
         </section>
       <!-- ДОСТОИНСТВА -->
-        <section>
+        <section class="section">
           <div class="container">
             <h2 class="headlines-invisible">Перелік наших переваг</h2>
             <ul class="flex-description">
@@ -94,25 +94,25 @@
           </section>
       </div>
       <!-- ЧЕМ ЗАНИМАЕМСЯ -->
-      <section>
-        <div class="container"></div>
+      <section class="section-one">
+        <div class="container">
           <h2 class="headlines-two flex-work">Чим ми займаємося</h2>
           <ul class="flex-work">
-            <li class="img">
+            <li>
               <img
                 src="./images/img.jpg"
                 alt="крупним планом зображення програміста, який працює на робочому столі в офісі"
                 width="370"
               />
             </li>
-            <li class="img">
+            <li>
               <img
                 src="./images/img(1).jpg"
                 alt="дизайнери web-інтерфейсу розробляють додатки для смартфонів, команда творців працює над інтерфейсом мобільних телефонів"
                 width="370"
               />
             </li>
-            <li class="img">
+            <li>
               <img
                 src="./images/img(2).jpg"
                 alt="творчий художник веб-дизайну з робочим графічним планшетом із вибором кольорів"
@@ -123,7 +123,7 @@
         </div>
       </section>
       <!-- НАША КОМАНДА -->
-      <section class="section-team">
+      <section class="section section-team">
           <div class="container">
           <h2 class="headlines-two">Наша команда</h2>
           <ul class="flex-team">
@@ -158,16 +158,16 @@
           ><span class="logo-one">Web</span>Studio</a
         >
         <address class="flex-footer">
-          <ul class="footer-padding">
-            <li>
+          <ul class="footer-contacts">
+            <li class="footer-margin">
               <a class="address" href="">м. Київ, пр-т Лесі Українки, 26</a>
             </li>
-            <li>
+            <li class="footer-margin">
               <a class="mail-two" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="footer-margin">
               <a class="phone-two" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
