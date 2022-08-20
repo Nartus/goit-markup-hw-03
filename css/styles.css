@@ -146,6 +146,7 @@ padding-bottom: 32px;
 }
 
 .mail {
+  margin-right: 50px;
   color: var(--text-gray);
 }
 
