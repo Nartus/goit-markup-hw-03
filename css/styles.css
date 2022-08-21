@@ -29,7 +29,7 @@ ul {
   list-style: none;
 }
 
-h1, h2, p, ul {
+h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
 }
@@ -40,12 +40,18 @@ img {
   height: auto;
 }
 
-.section {
-padding-top: 94px;
-padding-bottom: 94px;  
+.dark-fon {
+padding-top: 200px;
+padding-bottom: 200px;
+background-color: var(--dark-fon) 
 }
 
 .section-one {
+padding-top: 94px;
+}
+
+.section-two {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -146,8 +152,11 @@ padding-bottom: 32px;
 }
 
 .mail {
-  margin-right: 50px;
   color: var(--text-gray);
+}
+
+.contact {
+  margin-right: 50px;
 }
 
 .studio:hover,.studio:focus,.portfolio:hover,.portfolio:focus,.contacts:hover,.contacts:focus,.mail:hover,.mail:focus, .phone:hover,.phone:focus {
@@ -287,6 +296,8 @@ color: var(--text-darkgray);
 
 
 .section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 background-color: var(--section-team);
 }
 
@@ -310,7 +321,6 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 padding-top: 30px;
-margin-bottom: 10px;
 color: var(--text-darkgray)
 }
 
@@ -332,10 +342,10 @@ color: var(--text-gray);
   color: var(--text-white);
 }
 
-.dark-fon {
+.dark-fon-two {
 background-color:  var(--dark-fon);
-padding-top: 200px;
-padding-bottom: 200px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .flex-footer {
@@ -343,9 +353,6 @@ padding-bottom: 200px;
   justify-self: start;
 }
 
-.footer-contacts{
-  margin-bottom: 60px;
-}
 
 .footer-margin {
   margin-bottom: 9px;
@@ -410,6 +417,11 @@ margin-bottom: 4px;
 color: var(--text-darkgray)
 }
 
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* кнопки порфтолио */
 
 .buttons-portfolio {
@@ -435,10 +447,8 @@ background-color: var(--logo-one);
 .portfolio-btn {
  display: flex;
   justify-content: center;
-  border-radius: 4px;
   gap: 8px;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 
@@ -459,7 +469,6 @@ color: var(--text-gray)
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .border-cards {
@@ -471,7 +480,3 @@ color: var(--text-gray)
 .borders {
   padding: 20px 24px;
 }
-
-.
-
-
