@@ -334,8 +334,8 @@ color: var(--text-gray);
 
 .dark-fon {
 background-color:  var(--dark-fon);
-padding-top: 60px;
-padding-bottom: 60px;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .flex-footer {
@@ -472,6 +472,6 @@ color: var(--text-gray)
   padding: 20px 24px;
 }
 
-
+.
 
 
