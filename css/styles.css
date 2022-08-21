@@ -192,6 +192,8 @@ border-radius: 4px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 color: var(--text-white);
 cursor: pointer;
+padding: 10px 22px;
+border: none;
 background-color: var(--logo-one);
 }
 .button:hover {
@@ -407,25 +409,14 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
+padding: 6px 22px;
 cursor: pointer;
+border: none;
+border-radius: 4px;
+margin-top: 94px;
 color: var(--text-darkgray)
 }
 
-.one {
-  width: 73px;
-}
-.two {
-  width: 125px;
-}
-.three {
-  width: 112px;
-}
-.four {
-  width: 103px;
-}
-.five {
-  width: 130px;
-}
 
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
