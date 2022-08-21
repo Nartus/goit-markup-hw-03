@@ -413,7 +413,6 @@ padding: 6px 22px;
 cursor: pointer;
 border: none;
 border-radius: 4px;
-margin-top: 94px;
 color: var(--text-darkgray)
 }
 
@@ -430,6 +429,7 @@ background-color: var(--logo-one);
   border-radius: 4px;
   gap: 8px;
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 
 
